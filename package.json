@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "Javascript API for integration with the WAX Cloud Wallet.",
   "scripts": {
-    "build": "tsc && webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js && tsc",
     "build-web": "webpack --config webpack.prod.js",
     "prettier": "prettier --write \"src/**/*.ts\" \"src/**/*.js\" \"test/**/*.ts\" \"test/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
