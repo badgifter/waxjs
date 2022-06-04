@@ -16,7 +16,7 @@
     "preversion": "npm run lint",
     "version": "npm run prettier && git add -A src",
     "postversion": "git push && git push --tags",
-    "install": "npm run build-web && npm run build"
+    "install": "npm i webpack && npm run build-web && npm run build"
   },
   "author": "WAX",
   "homepage": "https://github.com/worldwide-asset-exchange/waxjs#readme",
