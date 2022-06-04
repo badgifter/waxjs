@@ -40,7 +40,7 @@
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
-    "eosjs": "^22.1.0"
+    "eosjs": "https://github.com/badgifter/eosjs.git"
   },
   "files": [
     "dist"
